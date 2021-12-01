@@ -3,6 +3,10 @@
         {
             "id": 1,
             "title": "hello"
+        },
+        {
+            "id": 2,
+            "title": "Thomas"
         }
     ],
     "profile": {
@@ -10,26 +14,29 @@
     },
     "books": [
         {
-            "Authors": [
+            "id" : 1,
+            "authors": [
                 "Stephin King"
             ],
-            "Title": "Misery",
-            "PublicationDate": "19870310"
+            "title": "Misery",
+            "publication_date": "19870310"
         },
         {
-            "Authors": [
+            "id" : 2,
+            "authors": [
                 "Stephin King"
             ],
-            "Title": "The Stand",
-            "PublicationDate": "19780310"
+            "title": "The Stand",
+            "publication_date": "19780310"
         },
         {
-            "Authors": [
+            "id" : 3,
+            "authors": [
                 "Stephen McConnell"
             ],
-            "Title": "Code Complete",
-            "Edition": 2,
-            "PublicationDate": "20040310"
+            "title": "Code Complete",
+            "edition": 2,
+            "publication_date": "20040310"
         }
     ]
 }
