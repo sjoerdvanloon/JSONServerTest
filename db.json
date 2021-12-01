@@ -1,11 +1,35 @@
 {
     "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
+        {
+            "id": 1,
+            "title": "hello"
+        }
     ],
     "profile": {
-      "name": "typicode"
-    }
-  }
+        "name": "typicode"
+    },
+    "books": [
+        {
+            "Authors": [
+                "Stephin King"
+            ],
+            "Title": "Misery",
+            "PublicationDate": "19870310"
+        },
+        {
+            "Authors": [
+                "Stephin King"
+            ],
+            "Title": "The Stand",
+            "PublicationDate": "19780310"
+        },
+        {
+            "Authors": [
+                "Stephen McConnell"
+            ],
+            "Title": "Code Complete",
+            "Edition": 2,
+            "PublicationDate": "20040310"
+        }
+    ]
+}
